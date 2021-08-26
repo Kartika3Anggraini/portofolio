@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>my portofolio</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <!-- jumbotron -->
+    <div class="jumbotron text-center">
+      <img src="img/atika.jpeg" class="img-circle">
+      <h1>Kartika anggraini</h1>
+      <p> taruna | RPL | smk 3 pariaman</p>
+    </div>
+
+    <!-- akhir jumbotron -->
+
+    <!-- about -->
+    <section class="about" id="about">
+     <div class="container">
+     <div class="row">
+       <div class="col-sm-12">
+         <h2 class="text-center">about</h2>
+         <hr>
+       </div>
+     </div>
+
+     <div class="row">
+       <div class="col-sm-6 col-sm-6-offset-1">
+        <p>perkenalkan nama saya kartika anggraini, saya sekarang bersekolah di smk negeri 3 pariaman dan mengambil jurusan bagian programmer yaitu Rekayasa Perangkat lunak, mungkin karena pandemi covid 19 saat ini membuat saya dan teman-teman terpaksa belajar di rumah.</p> 
+       </div>
+       <div class="col-sm-6">
+         <p> saat harus belajar di rumah bukan berarti pembelajaran makin mudah dipahami namun makin sulit karena tidak semua siswa punya laptop atau komputer dan alat pendukung belajar lainnya. saat ini saya hanya berdoa agar virus covid 19 cepat hilang dan bisa beraktivitas seperti biasa, terima kasih</p>
+       </div>
+     </div> 
+     </div> 
+    </section>
+    <!-- akhir about -->
+
+
+     
+     <!--portfolio -->
+     <section class="portofolio" id="portofolio">
+       <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+           <h2>portofolio</h2> 
+           <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+            <img src="img/portofolio/file1.jpeg">  
+            </a> 
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+            <img src="img/portofolio/file2.jpeg">  
+            </a> 
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+            <img src="img/portofolio/file3.jpeg">  
+            </a> 
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+            <img src="img/portofolio/file4.jpeg">  
+            </a> 
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+            <img src="img/portofolio/file5.jpeg">  
+            </a> 
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+            <img src="img/portofolio/file6.jpeg">  
+            </a> 
+          </div>
+        </div>
+
+       </div>
+     </section>
+     <!-- akhir portfolio -->
+
+
+<!-- contact -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h2>contact</h2>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <form>
+          <div class="form-group">
+            <label for="nama">nama</label>
+            <input type="text" id="nama" class="form-control" placeholder="masukkan nama">
+          </div>
+            <div class="form-group">
+            <label for="email">email</label>
+            <input type="email" id="email" class="form-control" placeholder="masukkan email">
+          </div>
+            <div class="form-group">
+            <label for="telp">no telpon</label>
+            <input type="tel" id="telp" class="form-control" placeholder="masukkan no telepon">
+          </div>
+          <select class="form-control">
+            <option>-- pilih kategori --</option>
+            <option>web design</option>
+            <option>development</option>
+          </select>
+            <div class="form-group">
+              <label for="pesan">pesan</label>
+            <textarea class="form-control" rows="10" placeholder="masukkan pesan"></textarea>
+          </div>
+          <button type="submit" class="btn btn-danger">kirim pesan</button>
+        </form>
+      </div>
+    </div>
+  </div>
+<!-- akhir contact -->
+
+
+
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        
+      </div>
+    </div>
+  </footer>
+  <!-- akhir footer -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
